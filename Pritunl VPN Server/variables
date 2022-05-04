@@ -1,0 +1,23 @@
+variable "ami_type" {
+  description = "Value of the AMI for the EC2 instance"
+  type        = string
+  default     = "ami-05ba3a39a75be1ec4"
+}
+
+variable "tag" {
+  description = "Value of the tag for the EC2 instance"
+  type        = string
+  default     = "Rahul-tf-PritunlVPN"
+}
+
+variable "instance_type" {
+  description = "Value of the instance type for the EC2 instance"
+  type        = string
+  default     = "t3a.micro"
+}
+
+variable "key_name" {
+  description = "Value of the key name for the EC2 instance"
+  type        = string
+  default     = "rahul_ec2"
+}
