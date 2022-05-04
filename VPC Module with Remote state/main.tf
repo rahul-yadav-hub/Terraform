@@ -24,7 +24,7 @@ terraform {
 
 // Define provider
 provider "aws" {
-  profile = "squareops"
+  profile = ""
   region  = var.region
 }
 
